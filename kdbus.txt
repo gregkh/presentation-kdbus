@@ -1,6 +1,4 @@
 
-
-
 IPC in Linux
 
 Chapter 43, The Linux Programming Interface, Michael Kerrisk
@@ -49,20 +47,71 @@ Android brought in:
 		uses physically continous memory
 		for GPUs
 	binder
-
-
-
+		Provides IPC for Android applications
+		Came from a system that didn't have SysV message types
+		works on the "object" / "message" level
+		provides a way for Android applications to communicate in a safe way
+		good for small messages only, not data streams
+		can pass file descriptors
+		is NOT safe to use outside of Android framework
 
 QNX
 	message passing
 		tight coupling to the microkernel
 		send message to other process and send control there as well
 		SIMPL on Linux
+		can build more complex message types on top of
+
+kbus
+	http://code.google.com/p/kbus/
+	simple message passing
+	with userspace helpers, can handle multi-cast messages
+	no file descriptor handling
+	multi-copy implementation
+	good for process separation
+
+D-Bus
+	message "bus" system
+	handles process lifecycles
+	application and system busses
+	can listen to messages of specific types on the bus
+	heavy use by Linux systems
+	Built on top of IPC mechanisms
+	reference implementation not optimized for speed
+
+IVI people have ported their QNX message types over to D-Bus, but ran into
+performance issues.
+
+First cut at optimizing, AF_BUS
+	Collabora (GENIVI sponsored)
+	kernel network protocol type
+	major speedup
+	rejected by upstream kernel developers
+
+If all you want is a faster D-Bus, then rewrite the D-Bus server/library
+	- systemd did this, 3.6 times faster!
+
+kdbus
+	- message based
+	- no extra kernel wakeups (unlike any userspace D-Bus implementation)
+	- filtering in the kernel (bloom filters)
+	- no blocking calls
+	- naming database in kernel
+	- multicast messages
+	- reliable, in-order message delivery
+	- 1 copy message passing
+	- file descriptor pasing
+	- data streams are possible (still work-in-progress)
+	- will replace D-Bus in systemd soon
+	- namespace aware
+	- audit hooks
+	- LSM hooks (i.e. SELinux aware)
+	- fast???
+	- will be merged "when it is ready"
+	- hopefully can replace binder, no guarantees
 
 
 
-	- System V IPC
-	- POSIX Message Queues
 
 Page 878, Kerrisk book
 
