@@ -1,0 +1,69 @@
+
+
+
+IPC in Linux
+
+Chapter 43, The Linux Programming Interface, Michael Kerrisk
+
+Different types
+
+	- communication
+	- signal
+	- synchronization
+
+
+signal
+	- standard signals
+	- realtime signals
+
+syncronizations
+	diagram
+
+communication
+	- what we care about
+
+	shared memory
+		sysv shared memory
+		POSIX shared mem
+		memory mapping
+			anonymous mappings
+			mapped files
+	data transfer
+		byte stream
+			pipe
+			FIFO
+			stream socket
+		pseudo terminal
+		message
+			SYSV message queue
+			POSIX message queue
+			datagram socket
+
+Android brought in:
+	ashmem
+		like POSIX shared memory, but "simpler" userspace api
+		can discard shared memory segments under pressure
+		uses virtual memory
+	pmem
+		shares memory between kernel and userspace
+		uses physically continous memory
+		for GPUs
+	binder
+
+
+
+
+QNX
+	message passing
+		tight coupling to the microkernel
+		send message to other process and send control there as well
+		SIMPL on Linux
+
+
+
+	- System V IPC
+	- POSIX Message Queues
+
+Page 878, Kerrisk book
+
+
