@@ -54,6 +54,7 @@ Android brought in:
 		good for small messages only, not data streams
 		can pass file descriptors
 		is NOT safe to use outside of Android framework
+		http://elinux.org/Android_Binder
 
 QNX
 	message passing
