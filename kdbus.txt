@@ -64,6 +64,8 @@ QNX
 
 kbus
 	http://code.google.com/p/kbus/
+	git clone https://code.google.com/p/kbus/
+	Tony Ibbs, Ross Younger
 	simple message passing
 	with userspace helpers, can handle multi-cast messages
 	no file descriptor handling
