@@ -14,7 +14,7 @@
    id="svg2451"
    sodipodi:version="0.32"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="kernel_patch_process.svg"
+   sodipodi:docname="ipc.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    version="1.0"
    inkscape:export-filename="/home/gregkh/presentation/presentation-development/images/kernel_patch_process.png"
@@ -92,18 +92,23 @@
      objecttolerance="10"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.67847364"
-     inkscape:cx="1499.1678"
-     inkscape:cy="3211.611"
+     inkscape:zoom="1.9190132"
+     inkscape:cx="1988.3677"
+     inkscape:cy="3336.6753"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
-     showgrid="false"
-     inkscape:window-width="1358"
-     inkscape:window-height="1228"
+     inkscape:current-layer="g4161-6-2"
+     showgrid="true"
+     inkscape:window-width="1878"
+     inkscape:window-height="1349"
      inkscape:window-x="0"
      inkscape:window-y="41"
      inkscape:connector-spacing="3"
-     inkscape:window-maximized="0" />
+     inkscape:window-maximized="0"
+     inkscape:snap-global="false">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3349" />
+  </sodipodi:namedview>
   <metadata
      id="metadata2456">
     <rdf:RDF>
@@ -449,7 +454,7 @@
     </g>
     <g
        id="g10960"
-       transform="translate(1323.8938,827.50862)">
+       transform="translate(1353.3717,809.82186)">
       <rect
          ry="41.172523"
          rx="39.284367"
@@ -458,12 +463,12 @@
          height="108.22491"
          width="202.03387"
          id="rect10962"
-         style="fill:#00d8ff;fill-opacity:1;stroke:#000000;stroke-width:2.65033579;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+         style="fill:#00d8ff;fill-opacity:1;stroke:#000000;stroke-width:2.65033579;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
       <text
          id="text10964"
          y="262.64014"
          x="130.16905"
-         style="font-size:28px;font-style:normal;font-weight:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Down the Drain"
+         style="font-size:28px;font-style:normal;font-weight:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Down the Drain"
          xml:space="preserve"><tspan
            style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"
            y="262.64014"
@@ -517,7 +522,7 @@
            y="114.38012" /></flowRegion><flowPara
          id="flowPara11097" /></flowRoot>    <g
        id="g11109"
-       transform="translate(971.69016,886.17193)">
+       transform="translate(976.11185,836.05945)">
       <rect
          ry="41.172523"
          rx="39.284367"
@@ -526,12 +531,12 @@
          height="108.22491"
          width="202.03387"
          id="rect11063"
-         style="fill:#ffabff;fill-opacity:1;stroke:#000000;stroke-width:2.65033579;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+         style="fill:#ffabff;fill-opacity:1;stroke:#000000;stroke-width:2.65033579;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
       <text
          id="text11065"
          y="6.2583961"
          x="194.68555"
-         style="font-size:28px;font-style:normal;font-weight:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Down the Drain"
+         style="font-size:28px;font-style:normal;font-weight:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Down the Drain"
          xml:space="preserve"><tspan
            id="tspan11069"
            style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"
@@ -545,37 +550,31 @@
            sodipodi:role="line">Torvalds</tspan></text>
     </g>
     <g
-       id="g11115"
-       transform="translate(2098.1574,706.91315)">
+       id="g4161">
       <rect
-         ry="41.172523"
-         rx="39.284367"
-         y="139.47504"
-         x="-359.48309"
-         height="108.22491"
-         width="202.03387"
+         ry="26.111906"
+         rx="39.38876"
+         y="709.06006"
+         x="1933.9282"
+         height="68.637001"
+         width="202.57076"
          id="rect11079"
-         style="fill:#ffabff;fill-opacity:1;stroke:#000000;stroke-width:2.65033579;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+         style="fill:#ffabff;fill-opacity:1;stroke:#000000;stroke-width:2.11345363;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
       <text
          id="text11081"
-         y="185.51718"
-         x="-257.91147"
-         style="font-size:28px;font-style:normal;font-weight:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Down the Drain"
+         y="752.20667"
+         x="2034.6121"
+         style="font-size:28px;font-style:normal;font-weight:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Down the Drain"
          xml:space="preserve"><tspan
-           id="tspan11083"
-           style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"
-           y="185.51718"
-           x="-257.91147"
-           sodipodi:role="line">Andrew</tspan><tspan
            id="tspan11087"
            style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"
-           y="225.51718"
-           x="-257.91147"
-           sodipodi:role="line">Morton</tspan></text>
+           y="752.20667"
+           x="2034.6121"
+           sodipodi:role="line">pipe</tspan></text>
     </g>
     <g
        id="g11121"
-       transform="translate(2098.7553,518.79979)"
+       transform="translate(2113.4943,421.52262)"
        inkscape:connector-avoid="true">
       <rect
          ry="41.172523"
@@ -585,12 +584,12 @@
          height="108.22491"
          width="202.03387"
          id="rect11099"
-         style="fill:#ffabff;fill-opacity:1;stroke:#000000;stroke-width:2.65033579;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+         style="fill:#ffabff;fill-opacity:1;stroke:#000000;stroke-width:2.65033579;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
       <text
          id="text11101"
          y="271.29626"
          x="-596.5304"
-         style="font-size:28px;font-style:normal;font-weight:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Down the Drain"
+         style="font-size:28px;font-style:normal;font-weight:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Down the Drain"
          xml:space="preserve"><tspan
            id="tspan11105"
            style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"
@@ -620,31 +619,11 @@
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Lend)"
-       d="m 1555.7843,1232.8292 -60.1433,-80.4977"
+       d="m 1566.9766,1232.8292 -53.0499,-98.1844"
        id="path11150"
        inkscape:connector-type="polyline"
        inkscape:connection-start="#g3649"
        inkscape:connection-end="#g10960"
-       inkscape:connection-start-point="d4"
-       inkscape:connection-end-point="d4"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Lend)"
-       d="M 1872.8246,1232.8292 1845.0863,954.61309"
-       id="path11152"
-       inkscape:connector-type="polyline"
-       inkscape:connection-start="#g3659"
-       inkscape:connection-end="#g11115"
-       inkscape:connection-start-point="d4"
-       inkscape:connection-end-point="d4"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Lend)"
-       d="m 2008.6923,1452.2488 -26.4557,-178.532 -3.2404,-16.9048 -118.1489,-302.19891"
-       id="path11183"
-       inkscape:connector-type="polyline"
-       inkscape:connection-start="#g3522"
-       inkscape:connection-end="#g11115"
        inkscape:connection-start-point="d4"
        inkscape:connection-end-point="d4"
        inkscape:connector-curvature="0" />
@@ -660,7 +639,7 @@
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Lend)"
-       d="m 1185.1768,1044.1066 -12.2376,-89.49351"
+       d="M 1187.6385,1044.1066 1174.8993,904.50061"
        id="path14349"
        inkscape:connector-type="polyline"
        inkscape:connection-start="#g10970"
@@ -670,7 +649,7 @@
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Lend)"
-       d="M 1245.1472,1044.1066 1450.0447,833.20069"
+       d="m 1234.7814,1044.1066 240.368,-308.18308"
        id="path14351"
        inkscape:connector-type="polyline"
        inkscape:connection-start="#g10970"
@@ -680,7 +659,7 @@
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Lend)"
-       d="m 1463.2493,1044.1066 31.3283,-210.90591"
+       d="m 1489.1224,1026.4199 23.799,-290.49638"
        id="path14353"
        inkscape:connector-type="polyline"
        inkscape:connection-start="#g10960"
@@ -690,7 +669,7 @@
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Lend)"
-       d="m 1379.7125,1046.6866 -138.674,-94.65346"
+       d="M 1412.6365,1027.8439 1242.0141,903.07656"
        id="path14355"
        inkscape:connector-type="polyline"
        inkscape:connection-start="#g10960"
@@ -700,7 +679,7 @@
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Lend)"
-       d="M 1681.3513,1044.1066 1539.1105,833.20069"
+       d="M 1691.7923,1044.1066 1543.4086,735.92352"
        id="path14357"
        inkscape:connector-type="polyline"
        inkscape:connection-start="#g10954"
@@ -710,7 +689,7 @@
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Lend)"
-       d="M 1622.4111,1064.0545 1260.975,934.66518"
+       d="M 1627.2853,1057.2546 1260.5224,891.35263"
        id="path14359"
        inkscape:connector-type="polyline"
        inkscape:connection-start="#g10954"
@@ -720,23 +699,78 @@
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow2Lstart);marker-end:none"
-       d="m 1597.9503,813.42718 146.4062,52.73452"
+       d="M 1616.5011,707.38697 2021.665,811.90336"
        id="path14363"
        inkscape:connector-type="polyline"
        inkscape:connection-start="#g11121"
-       inkscape:connection-end="#g11115"
        inkscape:connection-start-point="d4"
-       inkscape:connection-end-point="d4"
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Lend)"
-       d="m 1738.6743,900.50064 -472.1176,0"
+       d="m 2021.665,811.90336 -750.6866,33.92028"
        id="path14365"
        inkscape:connector-type="polyline"
-       inkscape:connection-start="#g11115"
        inkscape:connection-end="#g11109"
-       inkscape:connection-start-point="d4"
        inkscape:connection-end-point="d4"
        inkscape:connector-curvature="0" />
+    <g
+       transform="translate(17.924915,115.80666)"
+       id="g4161-6">
+      <rect
+         ry="26.111906"
+         rx="39.38876"
+         y="709.06006"
+         x="1933.9282"
+         height="68.637001"
+         width="202.57076"
+         id="rect11079-7"
+         style="fill:#ffabff;fill-opacity:1;stroke:#000000;stroke-width:2.11345363;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <text
+         id="text11081-5"
+         y="752.20667"
+         x="2034.6121"
+         style="font-size:28px;font-style:normal;font-weight:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Down the Drain"
+         xml:space="preserve"><tspan
+           id="tspan11087-0"
+           style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"
+           y="752.20667"
+           x="2034.6121"
+           sodipodi:role="line">FIFO</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="2085.4468"
+       y="936.82928"
+       id="text4206"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4208"
+         x="2085.4468"
+         y="936.82928">stream</tspan></text>
+    <g
+       transform="translate(11.150597,261.71498)"
+       id="g4161-6-2">
+      <rect
+         ry="26.111906"
+         rx="39.38876"
+         y="709.06006"
+         x="1933.9282"
+         height="68.637001"
+         width="202.57076"
+         id="rect11079-7-4"
+         style="fill:#ffabff;fill-opacity:1;stroke:#000000;stroke-width:2.11345363;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <text
+         id="text11081-5-7"
+         y="752.20667"
+         x="2034.6121"
+         style="font-size:28px;font-style:normal;font-weight:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Down the Drain"
+         xml:space="preserve"><tspan
+           id="tspan11087-0-1"
+           style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"
+           y="752.20667"
+           x="2034.6121"
+           sodipodi:role="line">stream socket</tspan></text>
+    </g>
   </g>
 </svg>
